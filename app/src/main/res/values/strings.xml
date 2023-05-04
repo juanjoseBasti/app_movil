@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Coffeeinfoapp</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Colse</string>
+    <string name="string_registrarse"><U>Registrate aquí</U></string>
+    <string name="string_inicio_sesion"><U>Iniciar sesión</U></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

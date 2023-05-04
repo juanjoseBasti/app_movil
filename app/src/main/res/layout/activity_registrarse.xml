@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrarse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp">
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/logocoffee" />
+
+            <TextView
+                android:id="@+id/txttitulo"
+                android:layout_width="180dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="11dp"
+                android:text="CREA TU CUENTA NUEVA"
+                android:textColor="#8B4513"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/subtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:text="Usa una de tus redes sociales"
+            android:textColor="#623421"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logogoogle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="90dp"
+                android:background="@drawable/efecto_btngoogle"/>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logofacebook"
+                android:background="@drawable/efecto_btnfacebook"/>
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logotwitter"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/efecto_btntwitter"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp">
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre" />
+
+            <EditText
+                android:id="@+id/txtnombreusuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:hint="Ingrese su nombre"
+                android:textSize="14dp"
+                android:textColorHint="@color/cardview_dark_background" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp">
+
+            <TextView
+                android:id="@+id/apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apellido" />
+
+            <EditText
+                android:id="@+id/apellidousuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:hint="Ingrese su apellido"
+                android:textSize="14dp"
+                android:textColorHint="@color/cardview_dark_background" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp">
+
+            <TextView
+                android:id="@+id/correoelectronico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Correo electronico" />
+
+            <EditText
+                android:id="@+id/txtcorreoelectronico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:hint="Ingrese su correo electronico"
+                android:textSize="14dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/cardview_dark_background" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp">
+
+            <TextView
+                android:id="@+id/contrasenanueva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contraseña" />
+
+            <EditText
+                android:id="@+id/txtcontrasenanueva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="222dp"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:textColorHint="@color/cardview_dark_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp">
+
+            <TextView
+                android:id="@+id/confirmarcontrasenanueva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirmar contraseña" />
+
+            <EditText
+                android:id="@+id/txtconfirmarcontrasenanueva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="222dp"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:textColorHint="@color/cardview_dark_background"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnregistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="55dp"
+            android:backgroundTint="#32CD32"
+            android:text="REGISTRATE AHORA" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Al registrarte estas aceptando los"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/terminoscondiciones"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Terminos y condiciones"
+                android:textAlignment="center"
+                android:textColor="#623421"
+                android:clickable="true"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Ya tienes una cuenta?"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/btninicio_sesion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:text="@string/string_inicio_sesion"
+                android:textColor="#32CD32"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

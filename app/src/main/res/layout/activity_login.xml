@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="36dp">
+
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/logocoffee" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="55dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btngoogle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/efecto_btngoogle"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logogoogle" />
+
+            <ImageButton
+                android:id="@+id/btnfacebook"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/efecto_btnfacebook"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logofacebook" />
+
+            <ImageButton
+                android:id="@+id/btntwitter"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/efecto_btntwitter"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logotwitter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="55dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/iconousuario" />
+
+            <EditText
+                android:id="@+id/txtusuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#623421"
+                android:hint="Usuario"
+                android:textColorHint="@color/cardview_dark_background" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="55dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/iconocontrasena" />
+
+            <EditText
+                android:id="@+id/txtcontrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#623421"
+                android:ems="10"
+                android:hint="Ingrese su contraseña"
+                android:inputType="textPassword"
+                android:textColorHint="@color/cardview_dark_background"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="222dp" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnsesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="55dp"
+            android:backgroundTint="#8B4513"
+            android:text="INICIAR SESIÓN" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp">
+
+            <TextView
+                android:id="@+id/btnolvidarcontrasena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:text="¿Olvidaste tu contraseña?"
+                android:textColor="#623421" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="¿Aún no tienes cuenta?"
+                android:textColor="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/btnregistrarse"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:text="@string/string_registrarse"
+                android:textColor="#32CD32"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

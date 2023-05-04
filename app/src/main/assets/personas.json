@@ -1,0 +1,21 @@
+{
+  "grupo": "Programadores",
+  "integrantes": 3,
+  "personas": [
+    {
+      "nombre": "Juan Jose",
+      "edad": 20,
+      "categoria": "Interfaz"
+    },
+    {
+      "nombre": "Alejandro Garzon",
+      "edad": 18,
+      "categoria": "Informacion"
+    },
+    {
+      "nombre": "Cristrian Camilo",
+      "edad": 21,
+      "categoria": "Foro"
+    }
+  ]
+}

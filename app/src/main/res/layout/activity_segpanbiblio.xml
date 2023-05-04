@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2dfdb"
+    tools:context=".segpanbiblio">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="218dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#bcaaa4"
+        android:fontFamily="sans-serif-light"
+        android:text="MAS DETALLES"
+        android:textColor="#131313"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="164dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#bcaaa4"
+        android:fontFamily="sans-serif-light"
+        android:text="MAS DETALLES"
+        android:textColor="#131313"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#bcaaa4"
+        android:fontFamily="sans-serif-light"
+        android:text="MAS DETALLES"
+        android:textColor="#131313"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="148dp"
+        android:layout_height="64dp"
+        android:fontFamily="sans-serif-light"
+        android:rotationX="25"
+        android:text="VARIEDADES"
+        android:textAlignment="center"
+        android:textColor="#987045"
+        android:textColorHighlight="#58E600"
+        android:textColorHint="#37BD19"
+        android:textColorLink="#D11D1D"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="230dp"
+        android:layout_height="49dp"
+        android:fontFamily="sans-serif-light"
+        android:rotationX="25"
+        android:text="ENFERMEDADES QUE PUEDE PRESENTAR EL CULTIVO"
+        android:textAlignment="center"
+        android:textColor="#987045"
+        android:textColorHighlight="#58E600"
+        android:textColorHint="#37BD19"
+        android:textColorLink="#D11D1D"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="148dp"
+        android:layout_height="64dp"
+        android:fontFamily="sans-serif-light"
+        android:rotationX="25"
+        android:text="COMO INICIAR UN CULTIVO "
+        android:textAlignment="center"
+        android:textColor="#987045"
+        android:textColorHighlight="#58E600"
+        android:textColorHint="#37BD19"
+        android:textColorLink="#D11D1D"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="208dp"
+        android:layout_height="46dp"
+        android:clickable="true"
+        app:backgroundTint="#96DF82"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/icono_perfil" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="40sp"
+        android:text="COFFEEINFOAPP"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FF6400"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="208in"
+        android:layout_height="46dp"
+        android:clickable="true"
+        app:backgroundTint="#91DC76"
+        app:backgroundTintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026"
+        app:rippleColor="@color/cafe_oscuro"
+        app:srcCompat="@drawable/icono_inicio" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="82dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026"
+        app:srcCompat="@drawable/logocoffee" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="188dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166"
+        app:srcCompat="@drawable/cultivoin" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="178dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/variedad" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="220dp"
+        android:layout_height="131dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816"
+        app:srcCompat="@drawable/enfermedadco" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="215dp"
+        android:layout_height="130dp"
+        android:rotationX="12"
+        android:text="Aqui te explicaremos como se inicia un cultivo , te explicara principalmente como sembrar, como se debe fertilizar o abonar para su progreso,te daremos el paso a paso para que puedas iniciar con tu cultivo"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="212dp"
+        android:layout_height="110dp"
+        android:text="La seccion de variedades esta disponible para que tengas presente las variedades de cafe que hay actualmente y las que estan se pueden estar prensentando actualmente"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="193dp"
+        android:layout_height="164dp"
+        android:text="En este punto te informaras acerca de todas las enfermedades que puede presentar tu cultivo de cafe, te explicara que afectaciones y como actua la enfermedad que se te puede estar presentando"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="466dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
