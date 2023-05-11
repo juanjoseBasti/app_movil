@@ -77,7 +77,7 @@ class login : AppCompatActivity() {
             FirebaseAuth.getInstance().signInWithCredential(credencial)
                 .addOnCompleteListener { task ->
                     if(task.isSuccessful){
-                        val g = Intent(this,ConsumoServicios::class.java)
+                        val g = Intent(this,pantallaPrincipal::class.java)
                         startActivity(g)
                     }
                     else{
@@ -92,7 +92,7 @@ class login : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         if(FirebaseAuth.getInstance().currentUser != null){
-            val g = Intent(this,ConsumoServicios::class.java)
+            val g = Intent(this,pantallaPrincipal::class.java)
             startActivity(g)
         }
     }
@@ -110,7 +110,7 @@ class login : AppCompatActivity() {
                     if (verficacion == true){
                         Toast.makeText(baseContext,"Autenticación exitosa", Toast.LENGTH_SHORT).show()
                         //aqui se va a la pantalla principal
-                        val i = Intent(this,ConsumoServicios::class.java)
+                        val i = Intent(this,pantallaPrincipal::class.java)
                         startActivity(i)
                     }
                     else{

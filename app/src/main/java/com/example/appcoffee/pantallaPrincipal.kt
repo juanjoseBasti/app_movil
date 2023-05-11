@@ -44,7 +44,6 @@ class pantallaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSe
         navigationView.setNavigationItemSelectedListener(this)
 
 
-
     }
 
 
@@ -55,9 +54,21 @@ class pantallaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSe
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.nav_item_one -> Toast.makeText(this, "Información acerca del cafe", Toast.LENGTH_SHORT).show()
-            R.id.nav_item_two -> Toast.makeText(this, "Foro", Toast.LENGTH_SHORT).show()
-            R.id.nav_item_tree -> Toast.makeText(this, "Reporte financiero", Toast.LENGTH_SHORT).show()
+            R.id.nav_item_one -> {
+                val intent = Intent(this, segpanbiblio::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.nav_item_two -> {
+                val intent = Intent(this, foro::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.nav_item_tree -> {
+                val intent = Intent(this, Administracion::class.java)
+                startActivity(intent)
+                true
+            }
             R.id.nav_item_six -> {
                 cerrarSesion()
             }

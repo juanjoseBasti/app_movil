@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9"
+    tools:context=".Administracion">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="275dp"
+        android:layout_height="43dp"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="40sp"
+        android:text="ADMINISTRACION"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FF6400"
+        android:textSize="28dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <Spinner
+        android:id="@+id/mySpinner"
+        android:layout_width="387dp"
+        android:layout_height="69dp"
+        android:background="#FFF"
+        android:entries="@array/myArray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="399dp"
+        android:layout_height="97dp"
+        android:text="En la Administracion encontraremos mas modulos donde podras ver tu estado de resultado con un diagrama"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mySpinner"
+        app:layout_constraintVertical_bias="0.192"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="211dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:srcCompat="@drawable/logocoffee" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

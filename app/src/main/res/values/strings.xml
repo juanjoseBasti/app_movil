@@ -6,4 +6,13 @@
     <string name="string_inicio_sesion"><U>Iniciar sesión</U></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="myArray">
+        <item>Seleccione</item>
+        <item>Gastos</item>
+        <item>Perdidas</item>
+        <item>Ganancias</item>
+        <item>Inversiones</item>
+    </string-array>
+
 </resources>

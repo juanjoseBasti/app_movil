@@ -175,10 +175,10 @@
         android:layout_height="62dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.009"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.026"
+        app:layout_constraintVertical_bias="0.025"
         app:srcCompat="@drawable/logocoffee" />
 
     <ImageView
@@ -226,10 +226,10 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.17" />
 
     <TextView
         android:id="@+id/textView14"
@@ -237,8 +237,12 @@
         android:layout_height="110dp"
         android:text="La seccion de variedades esta disponible para que tengas presente las variedades de cafe que hay actualmente y las que estan se pueden estar prensentando actualmente"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="290dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
         android:id="@+id/textView15"
@@ -246,6 +250,10 @@
         android:layout_height="164dp"
         android:text="En este punto te informaras acerca de todas las enfermedades que puede presentar tu cultivo de cafe, te explicara que afectaciones y como actua la enfermedad que se te puede estar presentando"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="466dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
 </androidx.constraintlayout.widget.ConstraintLayout>

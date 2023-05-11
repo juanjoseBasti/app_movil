@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="410dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="56dp"
+        android:background="#D8D8D8"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_main"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="411dp"
+        android:layout_height="25dp"
+        android:text="Uasuario1 ¿tienes algo que decir?"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTitulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="119dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="148dp"
+        android:text="Publicar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:src="@drawable/imagen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#623421"
+        app:layout_scrollFlags="scroll|enterAlways"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+
+    <EditText
+        android:id="@+id/editTextTitulo1"
+        android:layout_width="413dp"
+        android:layout_height="690dp"
+        android:layout_marginTop="220dp"
+        android:background="#E6E6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_main"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="297dp"
+        android:layout_height="170dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/enfermedadco" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="354dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="28dp"
+        android:gravity="center"
+        android:text="Hola, sera que me pueden ayudar con esta enfermedad no se como manejarla "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/icono_foro"
+        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/me_gusta"
+        app:layout_constraintEnd_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="86dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="220dp"
+        android:text="comentar"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="86dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="56dp"
+        android:text="me gusta"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="40sp"
+        android:text="FORO"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FF6400"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="312dp"
+        android:src="@drawable/perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        android:src="@drawable/perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="107dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="72dp"
+        android:text="Usuario2"
+        android:textSize="19sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTitulo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
